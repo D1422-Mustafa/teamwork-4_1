@@ -1,0 +1,334 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container__container{
+    background-color: rgb(24, 21, 29);
+    border-bottom: 3px solid purple;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container__container-left {
+    font-size: 1.2rem;
+
+}
+
+.container__title {
+    color: white;
+    margin-left: 1rem;
+}
+
+#title {
+    color: purple;
+}
+.container__container-right{
+    font-size: 0.2rem;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+}
+#services{
+    margin-right: 1rem;
+}
+a:hover {
+    color: purple;
+}
+.container__header-front {
+    height: 20rem;
+    display: flex;
+    background-image: url(./img/showcase.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    justify-content: center;
+    opacity: 0.9;
+}
+#header__title{
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+#header__par {
+    text-align: center;
+}
+.subcontainer {
+    background-color: rgb(24, 21, 29);
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#subcontainer__left_title {
+    margin-left: 1rem;
+    color: white;
+    
+}
+.container__subcontainer-right{
+    display: flex;
+
+
+}
+#subcontainer__right-email{
+    padding-right: 3px;
+}
+#subcontainer__right-submit{
+    padding-right: 0.5rem;
+}
+#submit {
+    color: white;
+    background-color: orangered;
+    height: 1.5rem;
+    /* border: none; */
+}
+#email {
+    height: 1.5rem;
+    width: 15rem;
+}
+.main__programming-languages{
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    height: 15rem;
+    
+}
+.main__programming-languages img {
+    height: 8rem;
+    width: 8rem;
+    padding-bottom: 1.5rem; 
+}
+.main__programming-languages h5 {
+    padding-bottom: 1.5rem;
+}
+.programming__languages-html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+.programming__languages-css{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+.programming__languages-graphic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+
+.clarusway {
+    background-color: rgb(24, 21, 29);
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#clarusway__par{
+    color: white;
+    font-size: 12px;
+    margin: 0.5rem;
+}
+.container__about-us {
+    display: flex;
+    background-color: white;
+    height: 41rem;
+}
+
+#about__title {
+    margin-top: 2rem;
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+#us_par1{
+    margin: 2rem 1rem;
+    text-align: justify;
+}
+#us_par2{
+    margin: 1rem;
+    background-color: rgb(24, 21, 29);
+    color: white;
+    padding: 2rem 1rem;
+    text-align: justify;
+}
+.what__we-do{
+    margin-top: 2rem;
+    background-color: rgb(24, 21, 29);
+    height: 11rem;
+    color: white;
+    margin-left: 4rem;
+    margin-right: 2rem;
+    padding: 1rem;
+}
+.we__do-title{
+    padding-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+.we__do-par{
+    padding-bottom: 1rem;
+    text-align: justify;
+}
+.services__price {
+    display: flex;
+    background-color: white;
+    height: 41rem;
+}
+.services__websites {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+.website {
+    background-color: rgb(238, 235, 235);
+    margin-top: 1rem;
+    margin-left: 1rem;
+    /* margin-right: 10rem; */
+}
+.website__design,
+.website__maintanence,
+.website__hosting {
+    padding: 1.3rem 10rem 0rem 1rem;
+    border: 2px solid white;
+}
+.website h5 {
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.website p{
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+.services__quote-container {
+    background-color:rgb(24, 21, 29);
+    color: white;
+    height: 16rem;
+    padding: 2rem 2.5rem 0.5rem 1rem;
+    margin: 2rem 1rem 1rem 10rem;
+}
+.quote__container-title {
+    margin: 2rem 1rem;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.services__quote-container label {
+    font-size: 10px;
+}
+#name,
+#email,
+#message {
+    width: 30rem;
+    height: 1.5rem;
+    font-size: 10px;
+}
+#sent {
+    color: white;
+    background-color: orangered;
+    height: 1.5rem;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1380px) {
+    .services__quote-container {
+        margin: 2rem 1rem 1rem 2rem;
+}
+    #name,
+    #email,
+    #message {
+    width: 20rem;
+}
+.website__design,
+.website__maintanence,
+.website__hosting {
+    padding-right: 5rem;
+    border: 2px solid white;
+}
+}
+
+@media screen and (min-width: 851px) and (max-width: 992px) {
+    .website {
+        margin-top: 0.2rem;
+        margin-left: 0.2rem;
+    }
+    #name,
+    #email,
+    #message {
+    width: 20rem;
+}
+    .website__design,
+    .website__maintanence,
+    .website__hosting {
+    padding-right: 0.5rem;
+
+}
+.services__quote-container {
+    margin: 2rem 1rem 1rem 2rem;
+}
+}
+
+@media screen and (min-width: 601px) and (max-width: 850px) {
+    .website {
+        margin-top: 0.2rem;
+        margin-left: 0.2rem;
+    }
+    #name,
+    #email,
+    #message {
+    width: 10rem;
+}
+    .website__design,
+    .website__maintanence,
+    .website__hosting {
+    padding-right: 2rem;
+
+}
+.services__quote-container {
+    margin: 2rem 1rem 1rem 1rem;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .website {
+        margin-top: 0.2rem;
+        margin-left: 0.2rem;
+    }
+    #name,
+    #email,
+    #message {
+    width: 10rem;
+}
+    .website__design,
+    .website__maintanence,
+    .website__hosting {
+    padding-right: 2rem;
+    font-size: 8px;
+
+}
+.services__quote-container {
+    margin: 2rem 1rem 1rem 1rem;
+}
+}
